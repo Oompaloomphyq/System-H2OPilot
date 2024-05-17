@@ -1,0 +1,249 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ccd5d2; 
+    color: #152935; 
+}
+
+h1 {
+    color: #152935; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+    background-color: #152935; 
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.column {
+    padding: 20px;
+    background-color: #ccd5d2;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+}
+
+.column-span {
+    grid-column: 1 / span 3;
+}
+
+form {
+    background-color: #698ea2;
+    border: 1px solid #698ea2; 
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #152935;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="datetime-local"],
+form input[type="time"] {
+    width: 97.5%;
+    padding: 10px;
+    border: 1px solid #698ea2;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #d99160;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d99160; 
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr {
+    background-color: #ffffff;
+}
+
+table th,
+table td {
+    padding: 20px;
+    border: 1px solid #ccd5d2; 
+    text-align: left;
+}
+
+table th {
+    background-color: #152935; 
+    color: #ffffff;
+}
+
+table td:last-child {
+    text-align: center;
+}
+
+table td form input[type="submit"] {
+    background-color: #e4a576; 
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+table td form input[type="submit"]:hover {
+    background-color: #d99160; 
+}
+
+.logo {
+    float: left;
+    margin-left: 30px;
+    padding: 10px 20px;
+}
+
+nav {
+    background-color: #152935;
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+}
+
+nav a {
+    display:inline-block;
+    color: #ccd5d2; 
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+nav a:hover {
+    background-color: #698ea2; 
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.search {
+    border: none;
+    background-color: #152935;
+    color: #152935;
+    float: right;
+    padding: 10px 20px;
+}
+
+
+.search button {
+    border: none;
+    background-color: #152935; 
+    padding: 6px; 
+}
+
+.search button::after {
+    content: "\1F50D"; 
+}   
+
+.search input[type="text"] {
+    width: 400px; 
+    border: none;
+    background-color: #152935;
+}
+
+input::placeholder {
+    color: #ffffff; 
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    background-color: #152935; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto; 
+    width: 100%; 
+}
+
+footer p {
+    margin: 0; 
+}
+
+
+footer a {
+    color: #1de5d6; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#unique-form {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#unique-form label{
+    background-color: none;
+    color: white;
+    font-size: 18px;
+}
+#unique-form input,
+#unique-form textarea{
+    width: calc(70% - 40px); /* Adjusted width to account for padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+#unique-form button {
+    background-color: #e4a576;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#unique-form label {
+    margin-bottom: 10px;
+}
+
+#unique-form input,
+#unique-form textarea {
+    margin-bottom: 20px;
+}
